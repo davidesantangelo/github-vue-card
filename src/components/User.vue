@@ -29,26 +29,26 @@
           </div>
 
           <div class="flex">
-            <div class="w-1/6 bg-gray-800 h-8"></div>
-            <div class="w-1/6 bg-gray-800 h-8"></div>
-            <div class="w-1/6 bg-gray-800 h-8"></div>
-            <div class="w-1/6 bg-gray-800 h-8"></div>
-            <div class="w-1/6 bg-gray-800 h-8"></div>
-            <div class="w-1/6 bg-gray-800 h-8"></div>
+            <div class="w-1/6 bg-orange-700 h-4"></div>
+            <div class="w-1/6 bg-orange-700 h-4"></div>
+            <div class="w-1/6 bg-orange-700 h-4"></div>
+            <div class="w-1/6 bg-orange-700 h-4"></div>
+            <div class="w-1/6 bg-orange-700 h-4"></div>
+            <div class="w-1/6 bg-orange-700 h-4"></div>
           </div>
           <div class="bg-black pt-8 pb-8 px-4 flex flex-col justify-between leading-normal">
-           <div class="inline-flex">
-              <span class="text-gray-300 font-bold px-4 mr-5">
-                Public Repos <span class="bg-gray-400 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black  rounded-full">{{ response.public_repos }}</span>
+           <div class="inline-flex text-base">
+              <span class="text-gray-300 font-base px-4 mr-5">
+                Public Repos <span class="bg-gray-700 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black ">{{ response.public_repos }}</span>
               </span>
-              <span class="text-gray-300 font-bold px-4 mr-5">
-                Public Gists <span class="bg-gray-400 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black  rounded-full">{{ response.public_gists }}</span>
+              <span class="text-gray-300 font-base px-4 mr-5">
+                Public Gists <span class="bg-gray-700 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black ">{{ response.public_gists }}</span>
               </span>
-               <span class="text-gray-300 font-bold px-4 mr-5">
-                Followers <span class="bg-gray-400 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black  rounded-full">{{ response.followers }}</span>
+               <span class="text-gray-300 font-base px-4 mr-5">
+                Followers <span class="bg-gray-700 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black ">{{ response.followers }}</span>
               </span>
-               <span class="text-gray-300 font-bold  px-4 mr-5 ">
-                Following <span class="bg-gray-400 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black  rounded-full">{{ response.following }}</span>
+               <span class="text-gray-300 font-base  px-4 mr-5 ">
+                Following <span class="bg-gray-700 p-2 m-1 bg-gray-600 text-gray-100  w-24 h-24 text-black ">{{ response.following }}</span>
               </span>
             </div>
           </div>
