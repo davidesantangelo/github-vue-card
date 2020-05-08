@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e2bd54c-6b59-4710-b6dd-4bb06796250e/deploy-status)](https://app.netlify.com/sites/github-vue-card/deploys)
+
 # GitHub-Vue-Card
 
 My first application using vue.js. Use the GitHub REST API to get my user information and render it in a stylized view with Tailwind CSS.
