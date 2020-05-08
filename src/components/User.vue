@@ -69,7 +69,7 @@ export default {
   data () {
     return {
       response: {},
-      username: 'davidesantangelo'
+      username: ''
     }
   },
   methods: {
@@ -81,7 +81,7 @@ export default {
   },
   mounted () {
     axios
-      .get(' https://api.github.com/users/' + this.username )
+      .get(' https://api.github.com/users/davidesantangelo' )
       .then(response => (this.response = response.data))
   },
   props: {
