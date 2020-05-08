@@ -4,6 +4,10 @@
 
 My first application using vue.js. Use the GitHub REST API to get my user information and render it in a stylized view with Tailwind CSS.
 
+## Live
+
+https://github-vue-card.netlify.app/
+
 ## Project setup
 ```
 yarn install
