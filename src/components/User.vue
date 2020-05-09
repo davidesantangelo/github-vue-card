@@ -1,11 +1,11 @@
 <template>
   <div class="user">
     
-    <div class="flex mt-10">
+    <div class="flex">
       <div class="w-1/5 h-12"></div>
      
-      <div class="w-3/5 h-16 mx-auto">
-         <input v-model="username" v-on:keyup.enter="changeUsername()" class="mb-10 bg-white  border-2 border-gray-300 py-2 px-4 block w-full text-orange-700 appearance-none leading-normal" type="text" placeholder="Insert your github username and press enter">
+      <div class="w-3/5 h-16 mx-auto mt-64 flex flex-col w-screen justify-center h-64">
+         <input v-model="username" v-on:keyup.enter="changeUsername()" class="mb-5 bg-white  border-2 border-gray-500 placeholder-gray-600 py-2 px-4 block w-full text-orange-700 appearance-none leading-normal" type="text" placeholder="Insert your github username and press enter">
          <a v-bind:href="response.html_url" class="flex flex-col bg-orange-200 border-orange-500 text-orange-700 p-4">
           <div class="text-center py-2 lg:px-4">
             <div class="items-center text-orange-600 leading-none flex lg:inline-flex" role="alert">
